@@ -2,7 +2,7 @@
  * @link https://www.npmjs.com/package/karma-rollup-preprocessor
  */
 module.exports = function(config) {
-	process.env.CHROME_BIN = require("puppeteer").executablePath();
+	//process.env.CHROME_BIN = require("puppeteer").executablePath();
 
 	config.set({
 		frameworks: ["jasmine"],
