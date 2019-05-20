@@ -15,7 +15,7 @@ describe("Element Lifecycle", () => {
 
 		await node.mounted;
 
-		expect(node.textContent).toBe("atomicos");
+		expect(node.textContent).toBe("atomico");
 
 		done();
 	});

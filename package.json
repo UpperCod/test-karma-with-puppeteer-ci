@@ -13,8 +13,7 @@
 	"scripts": {
 		"build": "rollup -c",
 		"dev": "rollup -c -w",
-		"test": "karma start --single-run --browsers ChromeHeadless karma.conf.js",
-		"prepare": "npm run build && npm run test"
+		"test": "karma start --single-run --browsers ChromeHeadless karma.conf.js"
 	},
 	"dependencies": {
 		"@atomico/core": "^1.5.x",
